@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+body {
+    background-color: #001731; /* #003478, #001731, #15263b*/
+    min-height: 100%;
+    font-family: "Red Hat Display";
+    color:rgb(255, 255, 255);
+    display: flex; justify-content:
+    center; margin: 0;
+}
+
+
+.header 
+{
+    padding-top: 10px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.banner{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color:rgb(255, 255, 255);
+    text-align: left;
+
+    
+    
+}
+
+
+.inner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.intro {
+    text-align: left;
+    font-family: "Play", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: grayscale;
+    font-size: 1.1rem;
+    margin: 0 160px;
+    max-width: 1024px;
+
+    
+    
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    .banner {
+        font-size: 3rem;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    .intro {
+        max-width: 390px;
+        margin: 0 5px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .header {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .banner {
+        font-size: 3rem;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    .intro {
+        max-width: 290px;
+        margin: 0 5px;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .header {
+        margin-bottom: 10px;
+    }
+}
