@@ -19,9 +19,9 @@ body {
 }
 
 .banner{
-    background-color:#476c84;
-    transition: transform 1s ease;
-    display: inline-block;
+    //background-color:#476c84;
+    //transition: transform 1s ease;
+    //display: inline-block;
     
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
