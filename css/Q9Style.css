@@ -19,14 +19,15 @@ body {
 }
 
 .banner{
-    //background-color:#476c84;
+    //background-color:##012F6B;
     //transition: transform 1s ease;
     //display: inline-block;
     
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 700;
     font-size: 2.5rem;
-    color:rgb(1, 47, 107);
+    //color:rgb(1, 47, 107);
+    color:rgb(255, 255, 255);
     text-align: left;
 
     
