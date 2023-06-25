@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
 
 body {
-    background-color: #eee /* #003478, #001731, #15263b #001731 */
+    background-color: #bbb; /* #003478, #001731, #15263b #001731 */
     min-height: 100%;
     font-family: "Red Hat Display";
     color:rgb(1, 47, 107);
